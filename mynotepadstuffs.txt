@@ -1,4 +1,4 @@
-print("Hello Notepad++!")
+print("Hello my notepad stuffs!")
 
 25/03/2022
 #CSS 
@@ -436,3 +436,6 @@ Padrões (reconhecimento de padrões)
 
 	Generalizar com objetivo de obter resoluções para problemas diferentes.
 	
+=======================================================================================
+
+"Este projeto .txt foi inspirado em tarefa do Dio Bootcamp Carrefour Web Developer"
