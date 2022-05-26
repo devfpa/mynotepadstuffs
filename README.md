@@ -1,0 +1,2 @@
+# mynotepadstuffs
+My study anotations
