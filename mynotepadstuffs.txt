@@ -1,0 +1,438 @@
+print("Hello Notepad++!")
+
+25/03/2022
+#CSS 
+1. Bootstrap
+
+#Javascript
+1. React
+2. Angular
+3. Vue
+
+#PHP
+1. Codelgniter
+2. Laravel
+3. Symfony
+4. Zend
+
+#Python
+1. Django
+2. Flask 
+3. Phalcon
+4. Pandas
+
+#Mobile
+1. React Native
+2. Flutter
+
+#Java
+1. Spring
+2. Hibernete
+3. Spark
+4. JSK
+
+28/03/2022
+
+Algoritmo, Automação, Programa de Computador
+(http://educandoweb.com.br - Profº Drº Nélio Alves)
+
+Algoritmo: sequência finita de instruções para se resolver um problema
+
+Automação: consiste em utilizar máquinas para executar o procedimento desejado de forma 
+automática ou semiautomática.
+
+===========================================================================================
+
+O que é preciso para se fazer um programa de computador?
+
+- uma linguagem de programação: regras léxicas e sintáticas para se escrever o programa
+
+- uma IDE: software para transformar o código fonte em código objeto
+
+- um compilador: software para transformar o código fonte em código objeto
+
+- um gerador de código ou máquina virtual: software que permite que o programa seja 
+executado.
+
+LINGUAGEM DE PROGRAMAÇÃO é um conjunto de regras léxicas (ortografia) e sintáticas 
+(gramática) para se escrever programas.
+
+===========================================================================================
+
+Procedência de Operadores em Python;
+	Na ordem da importância, maior para menor:
+	- Exponenciação: **
+	- Multiplicação, divisão e resto da divisão: * / %
+	- Adição e subtração: + -
+	
+(https://www.pythonprogressivo.net)
+
+	#pedindo as notas
+	port= float( int ("Digite , nota de Português: "))
+	ing= flotat( int ("Agora a de Inglês: "))
+
+	#cálculo de média
+	media= (port + ing) / 2
+	print= ("A média desse estudante foi: ", media) 
+	
+===========================================================================================
+
+SOLUÇÃO EM LINGUAGEM C
+
+#include <stdio.h>
+	int main() {
+	double x, y, media; 
+	
+	printf("Digite o primeiro número: ");
+	scanf("%lf", &x);
+	printf("Digite o segundo número: ");
+	scanf("%lf", &y);
+	media= (x + y) / 2.0;
+	print("Media = %.lf\n", media);
+	return 0;
+}
+
+===========================================================================================
+
+IDE - Ambiente Integrado de Desenvolvimento
+
+É um conjunto de softwares utilizado para a construção de programas. Exemplos:
+
+C/C++: Code Blocks
+Java: Eclipse, NetBeans
+C#: Microsoft Visual Studio
+
+Funcionalidades de uma IDE:
+
+- Edição de código fonte (indentação, autocompletar, destaque de palavras, etc)
+- Depuração e testes
+- Construção do produto final (build)
+- Sugestão de modelos (templates)
+- Auxiliar em várias tarefas do seu projeto
+
+CÓDIGO FONTE é aquilo escrito pelo programador em linguagem de programação.
+
+Algoritmo escrito na linguagem de programação Portugol usando VisualG:
+
+Var
+Início
+
+	escreva("Hello World!")
+fimalgoritmo
+
+O que é preciso para se fazer um programa de computador?
+
+- uma linguagem de programção: regras léxicas e sintáticas para se escrever o programa
+- uma IDE: software para editar e testar o programa
+- um compilador: software para transformar o código fonte em código objeto
+- um gerador de código ou máquina virtual: software que permite que o programa seja 
+executado
+
+===========================================================================================
+
+29/03/2022
+
+Por quê o nome Estrutura Sequencial?
+
+Para enfatizar que os comandos do algoritmo executam em sequência, de cima para baixo.
+
+Um algoritmo deve obedecer uma sequência lógica adequada para cumprir seu papel.
+
+CORRETO:
+x <- 10
+y <- 20
+soma <- x + y
+ERRADO:
+soma <- x + y
+x <- 10
+y <- 20
+
+EXPRESSÃO 4 + 5 RESULTADO VALOR NUMÉRICO 9
+
+===========================================================================================
+
+OPERADORES ARITMÉTICOS DO VISUALG
+
+Operador 
++			adição 
+-			substração
+*			multiplicação
+/			divisão
+\			divisão inteira
+% ou mod	resto da divisão (inteiro)
+^			potenciação (real)
+
+PRECEDÊNCIA 
+1º lugar ^
+2º lugar * /\%
+3º lugar + -
+
+EXEMPLOS DE EXPRESSÕES ARITMÉTICAS
+
+2 * 6 / 3 = 12 / 3 = 4
+3 + 2 * 4 = 3 + 8 = 11
+(3 + 2) * 4 = 5 * 4 = 20
+2 * 3 ^ 4 = 2 * 3 . 3 . 3 . 3 = 2 * 81 = 162
+
+===========================================================================================
+
+POTENCIAÇÃO: DEFINIÇÃO E PROPRIEDADES
+(in: Ferreto Matemática no Youtube, "Matemática Básica, aula 6")
+
+	Se 'a' é a base do expoente '4' logo: 
+		a4 = a . a . a . a
+		
+a. (-5)² = (-5) . (-5) = 25
+b. -5² = -5 . 5 = -25
+
+	Se o expoente é par então o resultado será positivo. Contudo se for ímpar, negativo.
+	
+c. -2³ = -2 . 2 . 2 = -8
+
+===========================================================================================
+
+	VARIÁVEIS 
+
+	Em programação uma variável é uma porção de memória (RAM) utilizada para armazenar dados
+	durante a execução dos programas.
+	
+	Um programa de computador é capaz de resolver essencialmente três operações. 
+	
+	ENTRADA DE DADOS
+	PROCESSAMENTO DE DADOS
+	SAÍDA DE DADOS
+	
+	O processamentos de dados se dá por um comando chamado ATRIBUIÇÃO.
+	
+	PROCESSAMENTO DE DADOS
+	
+	Comando de atribuição.
+	
+	Sintaxe: 
+	
+	<variável> <-[lê-se: recebe] <expressão>
+	REGRA: 
+	a) A expressão é calculada
+	b) O resultado da expressão é armazenado na variável
+	
+===========================================================================================
+
+30/03/2022
+
+	.vscode 
+	
+	How I am programming in Python Language a basic command to run Hello World message.
+	
+	1. msg = "Hello World!"
+	2. print(msg)
+	
+	> POWERSHELL
+	Hello World!
+	
+	EXPRESSÕES COMPARATIVAS
+	
+	Expressão > resultado > valor verdade
+	
+	5 > 10
+	resultado > falso
+	
+	Operadores Comparativos em VisualG
+	
+	> maior
+	< menor
+	>= menor ou igual
+	<= menor ou igual
+	= igual 
+	<> diferente
+	
+	Sendo, por exemplo, x igual a 5:
+	x > 0	V
+	x = 3	F
+	x <> 2	V
+	
+	First Programm in C
+	
+	#include <stdio.h>
+	int main () {
+		printf("Hello, World!\n");
+		return 0;
+	}
+	
+	TIPOS DE DADOS E VARIÁVEIS
+	SIGNIFICADO				TIPO
+	número inteiro			int
+	nº de ponto flutuante	double
+	um único caractere		char
+	texto					char[]
+	valor lógico 			int
+	
+	OPERADORES COMPARATIVOS 
+	< menor
+	> maior
+	<= menor ou igual
+	=> maior ou igual
+	== igual
+	!= diferente
+	
+	OPERADORES LÓGICOS
+	&&	e
+	||	ou
+	!	não
+	
+	SAÍDA DE DADOS EM C
+	
+	COMANDO EM C
+	printf
+	
+	BIBLIOTECA
+	#include <stdio.h>
+	
+	TIPO							PLACEHOLDER
+	int (16 bits)					%d ou %:
+	long int (32 bits)				%li
+	long long int (64 bits)			%lli
+	float (real precisão simples)	%f
+	double (real precisão dupla)	%lf
+	char (um único caractere)		%c
+	char [] (texto)					%s
+	
+	COMANDO EM C								BIBLIOTECA
+	scanf (para ler dados básicos)				#include <stdio.h>
+	fgets (para ler txt até a quebra de linha)	#include <string.h>
+	
+	ESTRUTURA CONDICIONAL EM C
+	- Simples:
+	if (condição) {
+		comando 1
+		comando 2
+	} 
+	
+	- Composta:
+	if (condição) {
+		comando 1
+		comando 2
+	}		
+	else {
+		comando 3
+		comando 4
+	}
+	
+	- Encadeamento: 
+	if (condição 1) {
+		comando 1
+		comando 2
+	}
+	else if (condição 2) {
+		comando 3
+		comando 4
+	}
+	else {
+		comando 5
+		comando 6
+	}
+	
+=========================================================================================
+	
+	02/04/2022
+	
+	ESTRUTURA CONDICIONAL EM C
+	
+	SIMPLES - if
+	COMPOSTA - if, else
+	ENCADEAMENTO - if, else if, else
+	
+	ESTRUTURA DO-WHILE EM C
+	(variante da estrutura Repita-Até)
+	
+	do {
+		comando 1
+		comando 2
+	} while (condição);
+	
+	
+=========================================================================================
+	
+	07/04/2022
+	
+	Menor_de_3 em Linguagem C
+	¨
+	#include <stdio.h>
+	
+	int main()
+	
+	{
+		int a, b, c, menor;
+		
+		printf("Primeiro valor: ");
+		scanf("%d", &a);
+		printf("Segundo valor: ");
+		scanf("%d", &b);
+		printf("Terceiro valor: ");
+		scanf("%d", &c);
+		
+		if (a < b && a < c){
+			menor = a;
+		}
+		else if (b<c) {
+			menor = b;
+		}
+		else {
+			menor = b;
+		}
+		else {
+			menor = b;
+		}
+		else {
+			menor = b;
+		}
+		else {
+			menor = c;
+		}
+		printf("MENOR = %d\n", menor);
+		
+		return 0;
+		
+		}
+		
+=======================================================================================
+	
+11/04/2022
+
+> PENSAMENTO COMPUTACIONAL
+> RACIOCÍNIO LÓGICO 
+
+	Raciocínio Lógico é uma forma de pensamento estruturado ou raciocínio, que permite
+encontrar a conclusão ou determinar a resolução de um problema.
+
+Habilidade de Treinamento > CLASSIFICAÇÃO > Indução, Dedução, Abdução
+
+- Indução: Fenômeno Observado (leis e teorias)
+- Dedução: Previsões e Explicações
+- Abdução: Conclusão para determinar a premissa
+
+> ato de aperfeiçoar
+
+- Encontrar solução eficiente
+- Otimizar pessoas
+- Simplificar linhas de código
+- funções bem definidas
+
+PILARES DO PENSAMENTO COMPUTACIONAL 
+
+"if you can't solve a problem, then there is an easier problem that you can solve: find it"
+
+DECOMPOSIÇÃO
+
+Estratégia
+
+Combinar os elementos recompondo o problema original > Síntese
+
+- processo de reconstrução
+- consiste em reunir elementos distintos em um único elemento
+
+SEQUENCIAL / PARALELA 
+Padrões (reconhecimento de padrões)
+- Modelo base; estrutura invariante; repetição > similaridade e diferenças
+
+	Generalizar com objetivo de obter resoluções para problemas diferentes.
+	
