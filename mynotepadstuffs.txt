@@ -438,4 +438,4 @@ Padrões (reconhecimento de padrões)
 	
 =======================================================================================
 
-"Este projeto .txt foi inspirado em tarefa do Dio Bootcamp Carrefour Web Developer"
+"Este projeto .txt foi inspirado em tarefa do Dio Bootcamp - TQI Fullstack Developer"
